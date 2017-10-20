@@ -12,6 +12,7 @@
 		4B75C5D91F9A2961009866CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B75C5D71F9A2961009866CC /* Main.storyboard */; };
 		4B75C5DB1F9A2961009866CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B75C5DA1F9A2961009866CC /* Assets.xcassets */; };
 		4B75C5DE1F9A2961009866CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B75C5DC1F9A2961009866CC /* LaunchScreen.storyboard */; };
+		4B75C5E71F9A3146009866CC /* arbreDeGit.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B75C5E61F9A3140009866CC /* arbreDeGit.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		4B75C5DA1F9A2961009866CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4B75C5DD1F9A2961009866CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4B75C5DF1F9A2961009866CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B75C5E61F9A3140009866CC /* arbreDeGit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arbreDeGit.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		4B75C5D21F9A2961009866CC /* git-premiers-pas */ = {
 			isa = PBXGroup;
 			children = (
+				4B75C5E51F9A30BC009866CC /* Ressources */,
 				4B75C5D31F9A2961009866CC /* AppDelegate.swift */,
 				4B75C5D51F9A2961009866CC /* ViewController.swift */,
 				4B75C5D71F9A2961009866CC /* Main.storyboard */,
@@ -62,6 +65,14 @@
 				4B75C5DF1F9A2961009866CC /* Info.plist */,
 			);
 			path = "git-premiers-pas";
+			sourceTree = "<group>";
+		};
+		4B75C5E51F9A30BC009866CC /* Ressources */ = {
+			isa = PBXGroup;
+			children = (
+				4B75C5E61F9A3140009866CC /* arbreDeGit.png */,
+			);
+			path = Ressources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +136,7 @@
 			files = (
 				4B75C5DE1F9A2961009866CC /* LaunchScreen.storyboard in Resources */,
 				4B75C5DB1F9A2961009866CC /* Assets.xcassets in Resources */,
+				4B75C5E71F9A3146009866CC /* arbreDeGit.png in Resources */,
 				4B75C5D91F9A2961009866CC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
